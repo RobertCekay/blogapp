@@ -11,7 +11,7 @@ app.set('port', (process.env.PORT || 5000));
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jsx');
-app.engine('jsx', require('express-React-views').createEngine());
+app.engine('jsx', require('express-react-views').createEngine());
 
 app.get('/', routes);
 app.get('/user/create', routes);
