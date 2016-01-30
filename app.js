@@ -12,6 +12,6 @@ app.engine('jsx', require('express-React-views').createEngine());
 app.get('/', routes);
 app.get('/user/create', routes);
 
-app.listen(env.PORT || 8000, function () {
+app.listen(8000, function () {
   console.log('Example app listening on port 3000!');
 });
