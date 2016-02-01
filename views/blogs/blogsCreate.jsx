@@ -1,8 +1,8 @@
 var React = require('react');
 var DefaultLayout = require('../layout/master');
 var mongoose = require('mongoose');
-//var BlogSchema = require('../../models/blogSchema.js');
-//var db = mongoose.connection;
+var BlogSchema = require('../../models/blogSchema.js');
+var db = mongoose.connection;
 var ReactDomServer = require('react-dom/server');
 
 
@@ -90,28 +90,5 @@ var BlogCreate = React.createClass({
     }
 });
 
-var TitleInput = React.createClass({
-    getInitialState: function() {
-        return {
-            title: ""
-        }
-    },
-    render: function(){
-        return <input className="form-control" type='text' id='content' value={this.state.title} onChange={this.props.handleChange} placeholder='Title' />
-    }
-
-});
-
-var ContentInput = React.createClass({
-    getInitialState: function() {
-        return {
-            content: ""
-        }
-    },
-    render: function(){
-        return <input className="form-control" type='text' id='content' value={this.state.content} onChange={this.props.handleChange} placeholder='Content' />
-    }
-
-});
 
 module.exports = BlogCreate;
