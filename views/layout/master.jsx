@@ -6,7 +6,9 @@ var DefaultLayout = React.createClass({
 			<html lang="en">
 				<head>
 					<title>{this.props.title}</title>
+					<script type="application/javascript;version=1.7" src=""></script>
 					<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"></link>
+					<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
 				</head>	
 				<nav className="navbar navbar-default">
 				  <div className="container-fluid">
@@ -24,7 +26,9 @@ var DefaultLayout = React.createClass({
 				</nav>
 				<body>
 					<div className="col-md-12">
-						{this.props.children}
+						<div id="container">
+							{this.props.children}
+						</div>
 					</div>	
 				</body>
 			</html>

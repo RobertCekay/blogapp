@@ -2,16 +2,474 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bd963a4-0904-4944-8be7-472719c5a06f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/blogApp_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/blogs.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/blogs.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/user.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/.zuul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/doc/stream.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/are-we-there-yet/node_modules/readable-stream/writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/browser-polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/browser-polyfill.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/browser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/external-helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/external-helpers.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/api/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/api/register/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/api/register/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/api/register/node-polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/api/register/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/babel/transformation/modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/comprehensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/expressions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/jsx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/statements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/template-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/generators/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/node/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/node/parentheses.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/node/printer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/node/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/position.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/generation/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/code-frame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/messages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/tools/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/plugin-manager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/build-binary-assignment-operator-transformer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/build-comprehension.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/build-conditional-assignment-operator-transformer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/build-react-transformer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/call-delegate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/define-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/explode-assignable-expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/get-function-arity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/memoise-decorators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/name-method.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/regex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/remap-async-to-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/helpers/replace-supers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/_default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/_strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/amd-strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/common-strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/ignore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/lib/metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/lib/remaps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/system.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/umd-strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/modules/umd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/aliases.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/deprecated.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es3/member-expression-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es3/property-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es5/properties.mutators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/arrow-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/block-scoping.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/classes/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/classes/loose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/classes/vanilla.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/destructuring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/for-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/object-super.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/parameters/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/parameters/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/parameters/rest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/properties.computed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/properties.shorthand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/regex.sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/regex.unicode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/spec.arrow-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/spec.block-scoping.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/spec.modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/spec.symbols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/spec.template-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/spread.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/tail-call.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es6/template-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/async-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/class-properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/comprehensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/decorators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/do-expressions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/exponentiation-operator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/export-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/function-bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/object-rest-spread.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/es7/trailing-function-commas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/internal/block-hoist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/internal/hoist-directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/internal/module-formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/internal/modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/internal/shadow-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/internal/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/optimisation/flow.for-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/optimisation/modules.system.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/optimisation/react.inline-elements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/other/async-to-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/other/bluebird-coroutines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/other/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/other/react-compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/other/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/other/regenerator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/other/strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/spec/block-scoped-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/spec/function-name.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/transformers/validation/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/hub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/ancestry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/comments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/conversion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/evaluation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/family.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/inference/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/inference/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/inference/inferer-reference.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/inference/inferers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/introspection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/lib/hoister.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/lib/removal-hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/lib/virtual-types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/modification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/removal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/path/replacement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/scope/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/scope/binding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/scope/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/traversal/visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/converters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/definitions/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/definitions/es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/definitions/experimental.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/definitions/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/definitions/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/definitions/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/definitions/jsx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/definitions/misc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/retrievers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/types/validators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/register-without-polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-core/templates.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/parser/comments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/parser/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/parser/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/parser/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/parser/lval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/parser/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/parser/statement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/parser/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/plugins/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/plugins/jsx/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/plugins/jsx/xhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/tokenizer/context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/tokenizer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/tokenizer/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/tokenizer/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/util/identifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/util/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babylon/lib/util/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/.zuul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/doc/stream.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/node_modules/inherits/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/node_modules/inherits/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/node_modules/inherits/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bl/node_modules/readable-stream/writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/esprima-compare.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/generate-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/regex.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/test/fixtures/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/test/fixtures/base64.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/test/fixtures/division.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/test/fixtures/division.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/test/fixtures/errors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/test/fixtures/errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/test/fixtures/regex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/test/fixtures/regex.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js-tokens/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/.zuul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/doc/stream.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/memory-fs/node_modules/readable-stream/writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/.bin/rimraf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/debug/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/debug/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/debug/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/debug/lib/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/debug/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/example/basic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/ignore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/node_modules/minimatch/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/node_modules/minimatch/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/node_modules/minimatch/minimatch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/node_modules/minimatch/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/.ignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/00-setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/basic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/ignore-most.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/nested-ignores.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/read-file-order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/unignore-child.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/fstream-ignore/test/zz-cleanup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/glob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inflight/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inflight/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inflight/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inflight/inflight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inflight/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inflight/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inherits/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inherits/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inherits/inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inherits/inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inherits/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/inherits/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/once/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/once/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/once/once.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/once/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/path-is-absolute/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/path-is-absolute/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/path-is-absolute/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/path-is-absolute/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/wrappy/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/wrappy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/wrappy/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/wrappy/test/basic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/node_modules/wrappy/wrappy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/glob/sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/once/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/once/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/once/once.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/once/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/once/test/once.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/.zuul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/doc/stream.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/readable-stream/writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/rimraf/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/rimraf/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/rimraf/bin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/rimraf/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/rimraf/rimraf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/.bin/rimraf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/bin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/rimraf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/test/fixtures/packed-file.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/test/fixtures/packed.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/test/fixtures/packed.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/test/fixtures/to-pack/bar.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/test/fixtures/to-pack/foo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-pre-gyp/node_modules/tar-pack/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/.zuul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/doc/stream.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/inflight/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/inflight/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/inflight/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/inflight/inflight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/inflight/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/inflight/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/once/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/once/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/once/once.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/once/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/wordwrap/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/blogSchema.js" afterPath="$PROJECT_DIR$/models/blogSchema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/api/browser.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/api/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/api/node.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/api/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/merge.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/merge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/normalize-ast.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/normalize-ast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/tools/build-external-helpers.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/tools/build-external-helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/index.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/logger.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/logger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/index.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/option-manager.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/option-manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/parsers.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/parsers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/pipeline.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/pipeline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/plugin-pass.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/plugin-pass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/plugin.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/lib/util.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/package.json" afterPath="$PROJECT_DIR$/node_modules/babel-core/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-core/register.js" afterPath="$PROJECT_DIR$/node_modules/babel-core/register.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babylon/.npmignore" afterPath="$PROJECT_DIR$/node_modules/babylon/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babylon/README.md" afterPath="$PROJECT_DIR$/node_modules/babylon/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babylon/package.json" afterPath="$PROJECT_DIR$/node_modules/babylon/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-tokens/changelog.md" afterPath="$PROJECT_DIR$/node_modules/js-tokens/changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-tokens/package.json" afterPath="$PROJECT_DIR$/node_modules/js-tokens/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/oauth-sign/index.js" afterPath="$PROJECT_DIR$/node_modules/oauth-sign/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/oauth-sign/package.json" afterPath="$PROJECT_DIR$/node_modules/oauth-sign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pinkie/index.js" afterPath="$PROJECT_DIR$/node_modules/pinkie/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pinkie/package.json" afterPath="$PROJECT_DIR$/node_modules/pinkie/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pinkie/readme.md" afterPath="$PROJECT_DIR$/node_modules/pinkie/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" afterPath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/supports-color/index.js" afterPath="$PROJECT_DIR$/node_modules/supports-color/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/supports-color/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/supports-color/readme.md" afterPath="$PROJECT_DIR$/node_modules/supports-color/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/wordwrap/package.json" afterPath="$PROJECT_DIR$/node_modules/wordwrap/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/blogs.jsx" afterPath="$PROJECT_DIR$/views/blogs/blogs.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/blogsCreate.jsx" afterPath="$PROJECT_DIR$/views/blogs/blogsCreate.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout/master.jsx" afterPath="$PROJECT_DIR$/views/layout/master.jsx" />
     </list>
     <ignored path="blogApp.iws" />
@@ -33,11 +491,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blogsCreate.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/blogs/blogsCreate.jsx">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4716981">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.222221">
+              <caret line="21085" column="33" selection-start-line="21085" selection-start-column="33" selection-end-line="21085" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -47,7 +525,7 @@
         <entry file="file://$PROJECT_DIR$/models/blogSchema.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -56,8 +534,8 @@
       <file leaf-file-name="master.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout/master.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state vertical-scroll-proportion="-13.888889">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -66,8 +544,8 @@
       <file leaf-file-name="blogs.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/blogs/blogs.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -77,17 +555,37 @@
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blogsCreate.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/blogs/blogsCreate.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6666666">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.19340974">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -101,15 +599,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/layout/master.jsx" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/blogs.jsx" />
         <option value="$PROJECT_DIR$/models/BlogSchema.jsx" />
         <option value="$PROJECT_DIR$/models/BlogSchema.js" />
         <option value="$PROJECT_DIR$/views/models/blogSchema.js" />
         <option value="$PROJECT_DIR$/models/blogSchema.js" />
-        <option value="$PROJECT_DIR$/views/blogs/blogs.jsx" />
+        <option value="$PROJECT_DIR$/views/layout/master.jsx" />
         <option value="$PROJECT_DIR$/views/blogs/blogsCreate.jsx" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/blogs/blogs.jsx" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -168,6 +670,80 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -181,9 +757,29 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="100" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="116" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="120" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="914" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="111" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="113" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="116" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="jsx.switch.disabled" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.blogsCreate.jsx">
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration default="false" name="blogsCreate.jsx" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="blogsCreate.jsx" working-dir="$PROJECT_DIR$/views/blogs">
+      <method />
+    </configuration>
+    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -229,12 +825,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.blogsCreate.jsx" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.blogsCreate.jsx" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.blogsCreate.jsx" />
       </list>
     </recent_temporary>
   </component>
@@ -253,23 +851,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23671874" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178125" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997344" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -279,38 +877,50 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/views/blogs/blogsCreate.jsx</url>
-          <line>31</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-dom/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout/master.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state vertical-scroll-proportion="-13.888889">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.222221">
+          <caret line="21085" column="33" selection-start-line="21085" selection-start-column="33" selection-end-line="21085" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -318,23 +928,47 @@
     <entry file="file://$PROJECT_DIR$/models/blogSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/blogs/blogs.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/blogs/blogsCreate.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4716981">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19340974">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
           <folding />
         </state>
       </provider>

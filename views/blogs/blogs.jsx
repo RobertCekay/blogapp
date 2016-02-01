@@ -4,12 +4,9 @@ var mongoose = require('mongoose');
 
 
 var Blogs = React.createClass({
-  propTypes: {
-    blogs: React.PropTypes.array
-  },
   getInitialState: function() {
     return {
-      blogs: (this.props.blogs || [])
+
     };
   },
   onBook: function(blog) {
@@ -25,7 +22,7 @@ var Blogs = React.createClass({
       return <Blog title={blog.title} read={blog.content}></Blog>;
     });*/
 
-	  var blogs = mongoose.model('Blog').find({});
+	 // var blogs = mongoose.model('Blog').find({});
 
     return (
 		<DefaultLayout title={this.props.name}>
@@ -36,7 +33,7 @@ var Blogs = React.createClass({
 	              <th>Content</th>
 	            </tr>
 	          </thead>
-	          <tbody>{blogs}</tbody>
+	          <tbody></tbody>
 	        </table>
 		</DefaultLayout>
     );

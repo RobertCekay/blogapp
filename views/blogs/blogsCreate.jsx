@@ -1,7 +1,9 @@
 var React = require('react');
 var DefaultLayout = require('../layout/master');
 var mongoose = require('mongoose');
-var BlogSchema = require('../../models/blogSchema.js');
+//var BlogSchema = require('../../models/blogSchema.js');
+//var db = mongoose.connection;
+var ReactDomServer = require('react-dom/server');
 
 
 var BlogForm = React.createClass({
@@ -11,28 +13,38 @@ var BlogForm = React.createClass({
             content: ''
         };
     },
-    changeTitle: function(ev) {
+    changeTitle: function(event) {
+
+         var text = event.target.value;
+
+        alert(text)
+
         this.setState({
-            title: ev.target.value
+            title: event.target.value
         });
     },
-    changeContent: function(ev) {
+    changeContent: function(event) {
+
         this.setState({
-            content: ev.target.value
-        });
+            content: event.target.value
+         });
     },
     addBlog: function(ev) {
 
+        console.log("hit hit");
 
-        var db = mongoose.connection;
+
+        /*var newBlog = new BlogSchema({
+            picture: this.state.picture,
+            title: this.state.title,
+            content: this.state.content,
+            comments: this.state.comments,
+        });
+
+        console.log(newBlog);
+
         db.on('error', console.error.bind(console, 'connection error:'));
         db.once('open', function() {
-
-
-            var newBlog = new BlogSchema({
-                Title: "hello",
-                Content: "hello"
-            });
 
             newBlog.save(function (err) {
 
@@ -42,38 +54,64 @@ var BlogForm = React.createClass({
                 console.log("New Blog");
             })// we're connected!
 
-        });
-
-
-        //mongoose.disconnect();
-
+        });*/
     },
     render: function() {
         return (
-            <DefaultLayout title={this.props.name}>
-                <div className="input-group col-md-4 col-md-offset-4">
-                    <h1>Create a blog</h1>
-                    <form onSubmit={this.addBlog}>
+                    <form onSubmit={this.addBlog(this)}>
                         <div>
                             <label htmlFor='picure'>Picture</label>
-                            <div><input type='file' id='picure' value={this.state.picure} /></div>
+                            <div><input type='file' id='picture' value={this.state.picture} /></div>
                         </div>
                         <div>
-                            <input className="form-control" type='text' id='title' value={this.state.title} onChange={function(){}} placeholder='Title' />
+                            <input className="form-control" type='text' id='content' value={this.state.title} onChange={(evt) => this.changeTitle(evt)} placeholder='Title' />
                         </div>
                         <div>
-                            <input className="form-control" type='text' id='content' value={this.state.content} onChange={this.changeContent} placeholder='Content'  />
+                            <input className="form-control" type='text' id='content' value={this.state.content} onChange={(evt) => this.changeContent(evt)}placeholder='Content' />
                         </div>
                         <div>
-                            <button onClick={this.addBlog(this)} className="btn btn-default">Add Blog</button>
+                            <button className="btn btn-default">Add Blog</button>
                         </div>
                     </form>
-                </div>
-            </DefaultLayout>
+
         );
     }
 });
 
+var BlogCreate = React.createClass({
+    render: function (){
+        return(
+        <DefaultLayout>
+            <div className="col-md-4 col-md-offset-4">
+                <BlogForm />
+            </div>
+        </DefaultLayout>
+        );
+    }
+});
 
+var TitleInput = React.createClass({
+    getInitialState: function() {
+        return {
+            title: ""
+        }
+    },
+    render: function(){
+        return <input className="form-control" type='text' id='content' value={this.state.title} onChange={this.props.handleChange} placeholder='Title' />
+    }
 
-module.exports = BlogForm;
+});
+
+var ContentInput = React.createClass({
+    getInitialState: function() {
+        return {
+            content: ""
+        }
+    },
+    render: function(){
+        return <input className="form-control" type='text' id='content' value={this.state.content} onChange={this.props.handleChange} placeholder='Content' />
+    }
+
+});
+
+module.exports = BlogCreate;
